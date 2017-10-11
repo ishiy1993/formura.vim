@@ -26,8 +26,10 @@ syn match formuraOperator ">"
 syn match formuraOperator ">="
 syn match formuraOperator "=="
 syn match formuraOperator "!="
-syn match formuraOperator "<="
 syn match formuraOperator "<"
+syn match formuraOperator "<="
+
+syn match formuraComment /#.*/
 
 syn region formuraString start=+"+ skip=+\\\\\|\\"+ end=+"+
 
