@@ -7,7 +7,7 @@ endif
 
 syn keyword formuraConditional if then else
 syn keyword formuraKeyword fun begin end function extern manifest
-syn keyword formuraSpecial axes dimension
+syn keyword formuraSpecial axes dimension grid_struct_type_name grid_struct_instance_name
 syn keyword formuraType integer rational float double complex_float complex_double Real Complex string
 syn keyword formuraOperator and or not
 
